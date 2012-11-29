@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CRF Humanitarian Bulletin feature.
+ */
+
+include_once 'crf_humanitarian_bulletin.features.inc';
