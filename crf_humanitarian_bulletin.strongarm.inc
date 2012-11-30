@@ -14,7 +14,7 @@ function crf_humanitarian_bulletin_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'additional_settings__active_tab_humanitarian_bulletin';
-  $strongarm->value = 'edit-print';
+  $strongarm->value = 'edit-workflow';
   $export['additional_settings__active_tab_humanitarian_bulletin'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -148,7 +148,7 @@ function crf_humanitarian_bulletin_strongarm() {
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '3',
+          'weight' => '5',
         ),
         'workbench_access' => array(
           'weight' => '2',
@@ -187,7 +187,7 @@ function crf_humanitarian_bulletin_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_humanitarian_bulletin';
   $strongarm->value = array(
-    0 => 'moderation',
+    0 => 'status',
     1 => 'revision',
   );
   $export['node_options_humanitarian_bulletin'] = $strongarm;
