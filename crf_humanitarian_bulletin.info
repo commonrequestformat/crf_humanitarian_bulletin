@@ -18,7 +18,6 @@ features[field][] = comment-comment_node_humanitarian_profile-comment_body
 features[field][] = node-humanitarian_bulletin-field_comments
 features[field][] = node-humanitarian_bulletin-field_file
 features[field][] = node-humanitarian_bulletin-field_nc_request
-features[field][] = node-humanitarian_bulletin-field_pbc_info_offcrs_contacts
 features[node][] = humanitarian_bulletin
 features[rules_config][] = rules_email_ocha_focal_point_on_humanitarian_bulletin_submission
 features[user_permission][] = create humanitarian_bulletin content
