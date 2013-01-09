@@ -20,7 +20,7 @@ function crf_humanitarian_bulletin_ctools_plugin_api() {
 function crf_humanitarian_bulletin_node_info() {
   $items = array(
     'humanitarian_bulletin' => array(
-      'name' => t('Humanitarian Bulletin'),
+      'name' => t('Humanitarian Bulletin Information'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
