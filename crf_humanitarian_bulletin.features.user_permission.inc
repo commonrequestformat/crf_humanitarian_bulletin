@@ -26,8 +26,7 @@ function crf_humanitarian_bulletin_user_default_permissions() {
     'name' => 'delete any humanitarian_bulletin content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      1 => 'manager',
     ),
     'module' => 'node',
   );
@@ -48,8 +47,7 @@ function crf_humanitarian_bulletin_user_default_permissions() {
     'name' => 'edit any humanitarian_bulletin content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      1 => 'manager',
     ),
     'module' => 'node',
   );
